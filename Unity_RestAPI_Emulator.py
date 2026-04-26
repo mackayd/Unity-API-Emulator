@@ -274,8 +274,26 @@ def seed_database() -> Dict[str, List[Dict[str, Any]]]:
     ]
 
     db["storageProcessor"] = [
-        {"id": "spa", "name": "SP A", "model": 9, "slotNumber": 0, "health": health(), "operationalStatus": [2], "parentDpe": ref("dpe", "dpe", "DPE")},
-        {"id": "spb", "name": "SP B", "model": 9, "slotNumber": 1, "health": health(), "operationalStatus": [2], "parentDpe": ref("dpe", "dpe", "DPE")},
+        {
+            "id": "spa",
+            "name": "SP A",
+            "model": "",
+            "slotNumber": 0,
+            "health": health(),
+            "operationalStatus": [2],
+            "parent": ref("dpe", "dpe"),
+            "parentDpe": ref("dpe", "dpe", "DPE"),
+        },
+        {
+            "id": "spb",
+            "name": "SP B",
+            "model": "",
+            "slotNumber": 1,
+            "health": health(),
+            "operationalStatus": [2],
+            "parent": ref("dpe", "dpe"),
+            "parentDpe": ref("dpe", "dpe", "DPE"),
+        },
     ]
 
     db["dpe"] = [{"id": "dpe", "name": "Disk Processor Enclosure", "health": health(), "model": 100, "slotNumber": 0}]
