@@ -1,9 +1,0 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.pyc
-.env
-.venv/
-venv/
-unity_mock_certs/
-*.crt
-*.key
