@@ -1,5 +1,7 @@
 # Dell Unity / Unisphere REST API Emulator
 
+> ![Alt text for accessibility](UnityAPI-Emulator.png)
+
 A Python-based Dell Unity / Unisphere REST API emulator for lab, development, and integration testing when a licensed Dell UnityVSA appliance is not available.
 
 This project was created after the Dell UnityVSA Community Edition activation page became unavailable. Dell support resources advised that there was no ETA for a fix, which meant a deployed UnityVSA appliance could not be activated and the authenticated REST API could not be used for testing. This emulator provides a local Unity-style REST endpoint so API clients, scripts, integrations, and management-pack workflows can continue to be developed and validated without waiting for a working UnityVSA licence file.
