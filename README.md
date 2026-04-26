@@ -679,33 +679,6 @@ Try the default non-strict authentication mode first. If you enabled `--strict-a
 
 ---
 
-## Suggested GitHub repository description
-
-```text
-Python Dell Unity / Unisphere REST API emulator for lab API testing when a licensed UnityVSA is unavailable, with HTTPS, mock authentication, seeded Unity resources, collection queries, actions, jobs, and metric responses.
-```
-
-Suggested GitHub topics:
-
-```text
-dell-unity
-unityvsa
-unisphere
-rest-api
-mock-api
-api-emulator
-api-testing
-python
-storage
-homelab
-vmware
-aria-operations
-management-pack-builder
-mpb
-```
-
----
-
 ## Disclaimer
 
 This project is an independent mock/emulation tool for lab testing. It is not affiliated with, endorsed by, or supported by Dell Technologies, Broadcom, VMware, or any related product team.
