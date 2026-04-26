@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local environment/config
+.env
+.env.*
+
+# Generated TLS/certificate material
+unity_mock_certs/
+*.key
+*.pem
+*.pfx
+*.p12
+
+# IDE/editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
